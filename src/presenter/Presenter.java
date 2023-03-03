@@ -102,9 +102,16 @@ public class Presenter {
 	}
 	
 
+<<<<<<< Updated upstream
 	public static void main(String[] args) {
 		Presenter main = new Presenter();
 		main.run();
+=======
+	public void registerProduct() throws IOException {
+		categories = new CategoriesManager("Files\\","categories");
+		product = new ProductsManager("Files\\","products");
+		categories.readCategories();
+		product.createProduct(12, "brayan", 12, 3, "camilo", categories);
+>>>>>>> Stashed changes
 	}
-
 }

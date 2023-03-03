@@ -7,6 +7,7 @@ import tools.FileManagerWriter;
 public class CustomerManager {
 	private Customer customer;
 	private FileManagerWriter fm;
+	
 	public CustomerManager(String path, String name) throws IOException {
 		fm = new FileManagerWriter(path, name);
 	}
